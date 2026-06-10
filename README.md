@@ -44,7 +44,7 @@ The transform is rerunnable and handles duplicate/null customer IDs.
 - support-call elbow
 -->
 
-## Model
+
 ## Model
 
 Three models, trained on 352k customers with a 20% stratified holdout (churn rate 56.7%).
