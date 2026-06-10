@@ -37,12 +37,34 @@ The transform is rerunnable and handles duplicate/null customer IDs.
 
 ## Key findings
 
-<!-- fill these in after running against the real data, with actual numbers:
-- baseline churn rate
-- churn by contract type + revenue lost
-- tenure cohort curve
-- support-call elbow
--->
+Baseline churn is 56.7% across 440,832 customers, which is abnormally high for any
+real subscription business and the first hint this dataset is synthetic.
+
+**Contract type is deterministic.** Every monthly-contract customer churned, all
+87,104 of them, taking roughly $48M in spend with them. Quarterly and Annual sit
+nearly identical at ~46%, with no gradient between them. Real data would not look
+like this.
+
+**Support calls are the strongest behavioral signal.** Churn holds flat around 30%
+through 2 calls, climbs to 42% at 3 and 58% at 4, jumps to 95% at 5, and is exactly
+100% at 6 or more. If this were a real business, 5 calls would be the intervention
+trigger: by call 6 the customer is already gone.
+
+**Low spenders fall off a cliff.** Within Quarterly and Annual contracts, the bottom
+spend quartile churns at 91.4% versus roughly 31% for everyone above it. It is a
+cliff, not a slope, and the same customers also average more support calls and
+longer payment delays.
+
+**Tenure barely matters.** Churn hovers between 54% and 64% across every tenure
+bucket from new customers to 5-year veterans. Real businesses show loyalty curves;
+this one does not, another synthetic tell.
+
+**Demographics carry hard rules too.** Every customer 60+ churned, both genders.
+Below 60, women churn 15 to 20 points higher than men in every age band (55% vs 37%
+for ages 30 to 44).
+
+Roughly 48% of total customer spend, about $135M, walked out the door, spread almost
+evenly across Basic, Standard, and Premium plans.
 
 
 ## Model
