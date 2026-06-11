@@ -66,6 +66,7 @@ for ages 30 to 44).
 Roughly 48% of total customer spend, about $135M, walked out the door, spread almost
 evenly across Basic, Standard, and Premium plans.
 
+Something to notice is that this is synthetic data The natural next step is rerunning this pipeline against a real-world dataset like IBM's Telco churn data, where the signals are noisy and the modeling actually gets hard.
 
 ## Model
 
