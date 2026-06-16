@@ -105,4 +105,11 @@ point of this section. The cutoff is a business decision driven by offer economi
 not a default 0.5 from the model.
 ## Dashboard
 
-<!-- phase 4: link to Tableau Public / Streamlit app + screenshot -->
+
+[![Customer Retention Dashboard](img/dashboard.png)](https://public.tableau.com/app/profile/arthur.thach/viz/CustomerRetentionAnalysis_17811996523280/Dashboard1?publish=yes)
+
+**[→ Open the interactive version on Tableau Public]([YOUR-TABLEAU-PUBLIC-URL](https://public.tableau.com/app/profile/arthur.thach/viz/CustomerRetentionAnalysis_17811996523280/Dashboard1?publish=yes))**
+
+Built on the postgres tables, including the model's risk scores. The Risk vs
+Reality view shows the behavioral model's bands against actual churn, and the
+contract and risk-band filters apply across all views.
