@@ -107,7 +107,7 @@ not a default 0.5 from the model.
 
 ## Dashboard
 
-[![Customer Retention Dashboard](img/dashboard.png)](https://public.tableau.com/app/profile/arthur.thach/viz/CustomerRetentionAnalysis_17811996523280/Dashboard1)
+[![Customer Retention Dashboard](img/Tableau%20Dashboard%20picture.png)](https://public.tableau.com/app/profile/arthur.thach/viz/CustomerRetentionAnalysis_17811996523280/Dashboard1)
 
 **[→ Open the interactive version on Tableau Public](https://public.tableau.com/app/profile/arthur.thach/viz/CustomerRetentionAnalysis_17811996523280/Dashboard1)**
 
