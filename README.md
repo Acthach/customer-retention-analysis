@@ -103,12 +103,13 @@ insurance on a $620 customer when more than half the base churns. Raise the offe
 cost or lower the save rate and the optimal threshold climbs sharply. That is the
 point of this section. The cutoff is a business decision driven by offer economics,
 not a default 0.5 from the model.
+
+
 ## Dashboard
 
+[![Customer Retention Dashboard](img/dashboard.png)](https://public.tableau.com/app/profile/arthur.thach/viz/CustomerRetentionAnalysis_17811996523280/Dashboard1)
 
-[![Customer Retention Dashboard](img/dashboard.png)](https://public.tableau.com/app/profile/arthur.thach/viz/CustomerRetentionAnalysis_17811996523280/Dashboard1?publish=yes)
-
-**[→ Open the interactive version on Tableau Public]([YOUR-TABLEAU-PUBLIC-URL](https://public.tableau.com/app/profile/arthur.thach/viz/CustomerRetentionAnalysis_17811996523280/Dashboard1?publish=yes))**
+**[→ Open the interactive version on Tableau Public](https://public.tableau.com/app/profile/arthur.thach/viz/CustomerRetentionAnalysis_17811996523280/Dashboard1)**
 
 Built on the postgres tables, including the model's risk scores. The Risk vs
 Reality view shows the behavioral model's bands against actual churn, and the
